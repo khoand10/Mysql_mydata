@@ -24,5 +24,4 @@ alter table contacts  modify last_name nvarchar(50) not null;
 
 alter table contacts drop column last_name;
 
-alter table contacts 
-change column last_name nvarchar(
+alter table contacts add primary key(contacts_id);
